@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #000;
+}
+
+button{
+    color: #6B7280;
+    font-weight: bold;
+    background: #E5E7EB;
+    padding: .5em;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+
+}
+
+button.md{
+    padding: 9px 18px;
+    font-size: 1.2em;
+}
+
+button.lg{
+    padding: 13px 25px;
+    font-size: 1.5em;
+}
+
+button.menu{
+    border-radius: 0px;
+    margin-bottom: 1px;
+    font-weight: lighter;
+}
+
+button.success{
+    background: #ECFDF5;
+    color: #047857;
+}
+
+button.warning{
+    background: #FFFBEB;
+    color: #FBBF24;
+}
+
+button.danger{
+    color: #F87171;
+    background: #FEF2F2;
+}
+
+.menu-title{
+    font-family: bolder;
+    margin-bottom: 2px;
+    min-width: 60px;
+    max-width: 80%;
+}
+.menu-dropdown{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    overflow: hidden;
+}
